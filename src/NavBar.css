@@ -1,0 +1,63 @@
+.nav__wrapper {
+    color: #fff;
+    /* height: 70px;
+    background-image: linear-gradient(to bottom,rgba(0,0,0,.7) 10%,rgba(0,0,0,0)); */
+}
+
+.nav__logo {
+    height: 25px;
+}
+.nav {
+    position: fixed;
+    color: #fff;
+    top: 0;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 18px 30px 18px 60px;
+    display: grid;
+    grid-template-columns: 0.25fr 2.25fr 3fr;
+    z-index: 1;
+    transition: all 0.3s;
+    transition-timing-function: ease-in;
+    background-image: linear-gradient( 0deg, transparent, rgba(37, 37, 37, 0.31), rgb(31, 30, 30));
+    
+}
+
+.nav.nav__scrolled {
+    background-color: #111;
+}
+img {
+    object-fit: contain;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    padding: 0.5rem 0.6rem;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.nav__tabMenu_mobile {
+    display: none;
+}
+
+.nav__tabAccountDetails {
+    /* display: flex;
+    justify-content: flex-end; */
+    position: fixed;
+    right: 2.5rem;
+}
+
+@media screen and (max-width: 1070px) {
+    .nav ul {
+        display: none;
+    }
+    .nav__tabMenu_mobile {
+        display: block !important;
+    }
+  }
+

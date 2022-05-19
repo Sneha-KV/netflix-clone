@@ -1,0 +1,40 @@
+.row {
+    margin-left: 60px;
+    color: #fff;
+}
+.row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    padding-left: 0;
+}
+
+/* keep the scroll functionality but remove the scroll bar visually */
+.row__posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row__poster {
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+    cursor: pointer;
+}
+
+.row__poster:hover {
+    transform: scale(1.08);
+    opacity: 1;
+}
+
+/* potrait mode rows style */
+
+.row__posterLarge {
+    max-height: 250px;
+}
+
+.row__poster:hover {
+    transform: scale(1.10);
+}
