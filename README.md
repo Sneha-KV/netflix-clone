@@ -18,8 +18,6 @@ When click on the movie poster it shows the trailer of the movie. This is implem
 
 Demo pictures
 
-image.png
+![image](https://user-images.githubusercontent.com/62788140/169371066-026cf86e-43c3-441e-859e-f16efd747d2b.png)
 
-image.png
-
-image.png
+![image](https://user-images.githubusercontent.com/62788140/169370991-7b034646-c721-4cf2-a4b6-6e8d9b289adf.png)
